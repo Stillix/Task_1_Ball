@@ -1,9 +1,9 @@
-package by.dorogokupets.main;
+package by.dorogokupets.taskball.main;
 
 
-import by.dorogokupets.entity.Ball;
-import by.dorogokupets.entity.Basket;
-import by.dorogokupets.service.impl.BallExecuteServiceImpl;
+import by.dorogokupets.taskball.entity.Ball;
+import by.dorogokupets.taskball.entity.Basket;
+import by.dorogokupets.taskball.service.impl.BallExecuteServiceImpl;
 
 public class Main {
     public static void main(String[] args) {

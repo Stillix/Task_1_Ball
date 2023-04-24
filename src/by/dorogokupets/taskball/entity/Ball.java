@@ -1,4 +1,4 @@
-package by.dorogokupets.entity;
+package by.dorogokupets.taskball.entity;
 
 import java.util.StringJoiner;
 

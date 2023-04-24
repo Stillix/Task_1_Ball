@@ -1,7 +1,7 @@
-package by.dorogokupets.service;
+package by.dorogokupets.taskball.service;
 
 
-import by.dorogokupets.entity.Basket;
+import by.dorogokupets.taskball.entity.Basket;
 
 
 public interface BallExecuteService {

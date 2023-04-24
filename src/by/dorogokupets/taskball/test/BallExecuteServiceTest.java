@@ -1,8 +1,8 @@
-package by.dorogokupets.test;
+package by.dorogokupets.taskball.test;
 
-import by.dorogokupets.entity.Ball;
-import by.dorogokupets.entity.Basket;
-import by.dorogokupets.service.impl.BallExecuteServiceImpl;
+import by.dorogokupets.taskball.entity.Ball;
+import by.dorogokupets.taskball.entity.Basket;
+import by.dorogokupets.taskball.service.impl.BallExecuteServiceImpl;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

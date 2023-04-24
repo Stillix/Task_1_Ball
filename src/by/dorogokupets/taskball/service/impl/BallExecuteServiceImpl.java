@@ -1,8 +1,8 @@
-package by.dorogokupets.service.impl;
+package by.dorogokupets.taskball.service.impl;
 
-import by.dorogokupets.entity.Ball;
-import by.dorogokupets.entity.Basket;
-import by.dorogokupets.service.BallExecuteService;
+import by.dorogokupets.taskball.entity.Ball;
+import by.dorogokupets.taskball.entity.Basket;
+import by.dorogokupets.taskball.service.BallExecuteService;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
