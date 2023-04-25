@@ -1,9 +1,10 @@
-package by.dorogokupets.taskball.main;
+package by.dorogokupets.taskball.resources.application;
 
 
 import by.dorogokupets.taskball.entity.Ball;
 import by.dorogokupets.taskball.entity.Basket;
 import by.dorogokupets.taskball.service.impl.BallExecuteServiceImpl;
+
 
 public class Main {
     public static void main(String[] args) {

@@ -3,6 +3,7 @@ package by.dorogokupets.taskball.service.impl;
 import by.dorogokupets.taskball.entity.Ball;
 import by.dorogokupets.taskball.entity.Basket;
 import by.dorogokupets.taskball.service.BallExecuteService;
+import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -11,6 +12,7 @@ import java.util.List;
 
 public class BallExecuteServiceImpl implements BallExecuteService {
     private static Logger logger = LogManager.getLogger();
+
     @Override
     public double calculateWeightInBasket(Basket basket) {
         double totalWeight = 0;
@@ -20,6 +22,7 @@ public class BallExecuteServiceImpl implements BallExecuteService {
             double weight = ball.getWeight();
             totalWeight += weight;
         }
+        logger.info("Вес мячей в корзине равен "+totalWeight);
         return totalWeight;
     }
 
@@ -32,6 +35,7 @@ public class BallExecuteServiceImpl implements BallExecuteService {
                 ballCount++;
             }
         }
+        logger.log(Level.INFO, "Получение мячей.Цвет:" + color + ". Количество мячей такого цвета: " + ballCount);
         return ballCount;
     }
 }

@@ -3,13 +3,16 @@ package by.dorogokupets.taskball.test;
 import by.dorogokupets.taskball.entity.Ball;
 import by.dorogokupets.taskball.entity.Basket;
 import by.dorogokupets.taskball.service.impl.BallExecuteServiceImpl;
+import org.apache.logging.log4j.Level;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 
 
 class BallExecuteServiceTest {
-
+    private static Logger logger = LogManager.getLogger();
     @Test
     void calculateWeightInBasket() {
         double expected = 4.4;
@@ -22,7 +25,7 @@ class BallExecuteServiceTest {
         basket.addBall(ball2);
         basket.addBall(ball3);
         basket.addBall(ball4);
-       BallExecuteServiceImpl ballExecuteService = new BallExecuteServiceImpl();
+        BallExecuteServiceImpl ballExecuteService = new BallExecuteServiceImpl();
         double actual = ballExecuteService.calculateWeightInBasket(basket);
         Assertions.assertEquals(expected, actual);
     }
@@ -40,7 +43,7 @@ class BallExecuteServiceTest {
         basket.addBall(ball3);
         basket.addBall(ball4);
         BallExecuteServiceImpl ballExecuteService = new BallExecuteServiceImpl();
-        int actual = ballExecuteService.findCountBallByColor(basket,"синий");
+        int actual = ballExecuteService.findCountBallByColor(basket, "синий");
         Assertions.assertEquals(expected, actual);
     }
 }
