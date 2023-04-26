@@ -10,9 +10,9 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 
-
 class BallExecuteServiceTest {
     private static Logger logger = LogManager.getLogger();
+
     @Test
     void calculateWeightInBasket() {
         double expected = 4.4;

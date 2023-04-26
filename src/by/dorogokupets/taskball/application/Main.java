@@ -1,4 +1,4 @@
-package by.dorogokupets.taskball.resources.application;
+package by.dorogokupets.taskball.application;
 
 
 import by.dorogokupets.taskball.entity.Ball;
