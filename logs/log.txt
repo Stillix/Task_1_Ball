@@ -1,0 +1,2 @@
+2023-04-29 17:03:16 [main] INFO  dorogokupets.taskball.service.impl.BallExecuteServiceImpl- Получение мячей.Цвет:синий. Количество мячей такого цвета: 1
+2023-04-29 17:03:16 [main] INFO  dorogokupets.taskball.service.impl.BallExecuteServiceImpl- Вес мячей в корзине равен 4.4
