@@ -3,15 +3,12 @@ package by.dorogokupets.taskball.test;
 import by.dorogokupets.taskball.entity.Ball;
 import by.dorogokupets.taskball.entity.Basket;
 import by.dorogokupets.taskball.service.impl.BallExecuteServiceImpl;
-import org.apache.logging.log4j.Level;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 
 class BallExecuteServiceTest {
-    private static Logger logger = LogManager.getLogger();
+
 
     @Test
     void calculateWeightInBasket() {
