@@ -1,2 +1,9 @@
 2023-04-29 17:03:16 [main] INFO  dorogokupets.taskball.service.impl.BallExecuteServiceImpl- Получение мячей.Цвет:синий. Количество мячей такого цвета: 1
 2023-04-29 17:03:16 [main] INFO  dorogokupets.taskball.service.impl.BallExecuteServiceImpl- Вес мячей в корзине равен 4.4
+2023-05-01 17:59:04 [main] INFO  dorogokupets.taskball.service.impl.BallExecuteServiceImpl- Вес мячей в корзине равен 13.700000000000001
+2023-05-01 17:59:35 [main] INFO  dorogokupets.taskball.service.impl.BallExecuteServiceImpl- Получение мячей.Цвет:Зеленый. Количество мячей такого цвета: 3
+2023-05-01 17:59:51 [main] INFO  dorogokupets.taskball.service.impl.BallExecuteServiceImpl- Получение мячей.Цвет:Синий. Количество мячей такого цвета: 1
+2023-05-01 18:06:49 [main] INFO  dorogokupets.taskball.service.impl.BallExecuteServiceImpl- Вес мячей в корзине равен 13,700
+2023-05-01 18:07:01 [main] INFO  dorogokupets.taskball.service.impl.BallExecuteServiceImpl- Вес мячей в корзине равен 13,700
+2023-05-01 18:07:23 [main] INFO  dorogokupets.taskball.service.impl.BallExecuteServiceImpl- Вес мячей в корзине равен 13,600
+2023-05-01 18:07:45 [main] INFO  dorogokupets.taskball.service.impl.BallExecuteServiceImpl- Вес мячей в корзине равен 13,600

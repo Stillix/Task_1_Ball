@@ -1,11 +1,11 @@
 package by.dorogokupets.taskball.service;
 
 
-import by.dorogokupets.taskball.entity.Basket;
+import by.dorogokupets.taskball.entity.Ball;
 
 
 public interface BallExecuteService {
-    double calculateWeightInBasket(Basket basket);
+    double calculateWeightInBasket(Ball[] balls);
 
-    int findCountBallByColor(Basket basket, String color);
+    int findCountBallByColor(Ball[] balls, String color);
 }

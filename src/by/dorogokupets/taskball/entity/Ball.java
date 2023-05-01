@@ -1,5 +1,6 @@
 package by.dorogokupets.taskball.entity;
 
+import java.util.Objects;
 import java.util.StringJoiner;
 
 public class Ball {
@@ -28,6 +29,19 @@ public class Ball {
 
     public void setColor(String color) {
         this.color = color;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Ball ball = (Ball) o;
+        return Double.compare(ball.weight, weight) == 0 && Objects.equals(color, ball.color);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(weight, color);
     }
 
     @Override
