@@ -35,13 +35,21 @@ public class Ball {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
+
         Ball ball = (Ball) o;
-        return Double.compare(ball.weight, weight) == 0 && Objects.equals(color, ball.color);
+
+        if (Double.compare(ball.weight, weight) != 0) return false;
+        return color != null ? color.equals(ball.color) : ball.color == null;
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(weight, color);
+        int result;
+        long temp;
+        temp = Double.doubleToLongBits(weight);
+        result = (int) (temp ^ (temp >>> 32));
+        result = 31 * result + (color != null ? color.hashCode() : 0);
+        return result;
     }
 
     @Override
